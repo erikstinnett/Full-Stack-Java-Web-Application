@@ -1,0 +1,37 @@
+@charset "ISO-8859-1";
+
+body 
+{
+  background-color: black;
+  color:aliceblue;
+}
+
+.userPass
+{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+.submitbtn
+{
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #f70202 50%, #ffffff 100%);
+  font-size: 12px;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  position:relative;
+}
+
+.submitbtn:hover
+{
+  background: #940808;
+  transition: all 0.7s ease;
+  cursor: pointer;
+
+}
